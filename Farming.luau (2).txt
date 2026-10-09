@@ -805,7 +805,7 @@ tabs.rebirths:AddSwitch("Auto Overcharged Island", function(bool)
         spawn(function()
             while _G.teleportActive and wait() do
                 if game.Players.LocalPlayer.Character then
-                    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2563.13037, 151.965668, 5382.24756, 0.127461269, 6.383023e-09, -0.991843522, 1.06623492e-08, 1, 7.80572673e-09, 0.991843522, -1.157031e-08, 0.127461269))
+                    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-2916.61, 151.97, 5445.55)
                 end
             end
         end)
