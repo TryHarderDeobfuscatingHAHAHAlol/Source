@@ -793,7 +793,7 @@ task.spawn(function()
 end)
 
 tabs.rebirths:AddLabel("No Private Server? No Problem")
-tabs.rebirths:AddLabel("You can grind strength or Rebirths on a public server without getting killed by them.").TextSize = 13
+tabs.rebirths:AddLabel("You can grind strength or Rebirths on a public server without getting killed by them.").TextSize = 12
 tabs.rebirths:AddLabel("You need to enter first—the standard way of entering the Overcharged Island").TextSize = 14
 tabs.rebirths:AddLabel("then activate/turn on Auto Overcharged Island, so no one can kill you").TextSize = 14
 tabs.rebirths:AddLabel("This only works with the normal auto-lift; it doesn't work with the Overcharged lift and Squat").TextSize = 12
@@ -1705,40 +1705,6 @@ tabs.other.tpE = function(position)
     services.virtualinputmanager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
 end
 
-tabs.other:AddLabel("Lift & Squat (Switch Button Version)")
-
-tabs.other:AddSwitch("Industrial Lift",function()
-    tabs.other.tpE(Vector3.new(-5491.68945, 81.2379913, 4643.85791))
-end)
-
-tabs.other:AddSwitch("Industrial Squat",function()
-    tabs.other.tpE(Vector3.new(-5217.25049, 89.8445511, 5416.01025))
-end)
-
-tabs.other:AddSwitch("Overcharged Lift",function()
-    tabs.other.tpE(Vector3.new(-3023.363, 151.797, 4696.859))
-end)
-
-tabs.other:AddSwitch("Overcharged Squat",function()
-    tabs.other.tpE(Vector3.new(-2673.216, 151.797, 5494.047))
-end)
-
-tabs.other:AddButton("Industrial Lift",function()
-    tabs.other.tpE(Vector3.new(-5491.68945, 81.2379913, 4643.85791))
-end)
-
-tabs.other:AddButton("Industrial Squat",function()
-    tabs.other.tpE(Vector3.new(-5217.25049, 89.8445511, 5416.01025))
-end)
-
-tabs.other:AddButton("Overcharged Lift",function()
-    tabs.other.tpE(Vector3.new(-3023.363, 151.797, 4696.859))
-end)
-
-tabs.other:AddButton("Overcharged Squat",function()
-    tabs.other.tpE(Vector3.new(-2673.216, 151.797, 5494.047))
-end)
-
 
 tabs.other:AddButton("Anti Lag", function()
     tabs.other.playerGui = lp.player:WaitForChild("PlayerGui")
@@ -1849,13 +1815,13 @@ tabs.info:AddLabel("")
 tabs.info:AddLabel("Close Friends:").TextSize = 30
 tabs.info.VersionLabel = tabs.info:AddLabel("XxSOE_GaGAxX")
 tabs.info.VersionLabel.TextSize = 17
-tabs.info.VersionLabel.Font = Enum.Font.GothamBold
+tabs.info.VersionLabel.Font = Enum.Font.Bangers
 tabs.info.VersionLabel = tabs.info:AddLabel("AVX_santos")
 tabs.info.VersionLabel.TextSize = 17
-tabs.info.VersionLabel.Font = Enum.Font.GothamBold
+tabs.info.VersionLabel.Font = Enum.Font.Bangers
 tabs.info.VersionLabel = tabs.info:AddLabel("ITSME_KIAN")
 tabs.info.VersionLabel.TextSize = 17
-tabs.info.VersionLabel.Font = Enum.Font.GothamBold
+tabs.info.VersionLabel.Font = Enum.Font.Bangers
 tabs.info:AddLabel("")
 tabs.info:AddLabel("If you encountered any problem, PM/DM me on TikTok")
 tabs.info:AddLabel("Tiktok: Kenzouu Warfreakkk!")
