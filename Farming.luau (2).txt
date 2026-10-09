@@ -1687,6 +1687,24 @@ tabs.other.tpE = function(position)
     services.virtualinputmanager:SendKeyEvent(false, Enum.KeyCode.E, false, game)
 end
 
+tabs.other:AddLabel("Lift & Squat (Switch Button Version)")
+
+tabs.other:AddSwitch("Industrial Lift",function()
+    tabs.other.tpE(Vector3.new(-5491.68945, 81.2379913, 4643.85791))
+end)
+
+tabs.other:AddSwitch("Industrial Squat",function()
+    tabs.other.tpE(Vector3.new(-5217.25049, 89.8445511, 5416.01025))
+end)
+
+tabs.other:AddSwitch("Overcharged Lift",function()
+    tabs.other.tpE(Vector3.new(-3023.363, 151.797, 4696.859))
+end)
+
+tabs.other:AddSwitch("Overcharged Squat",function()
+    tabs.other.tpE(Vector3.new(-2673.216, 151.797, 5494.047))
+end)
+
 tabs.other:AddButton("Industrial Lift",function()
     tabs.other.tpE(Vector3.new(-5491.68945, 81.2379913, 4643.85791))
 end)
