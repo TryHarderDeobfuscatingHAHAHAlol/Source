@@ -1712,13 +1712,22 @@ tabs.other:AddButton("Overcharged Squat",function()
     tabs.other.tpE(Vector3.new(-2673.216, 151.797, 5494.047))
 end)
 
-tabs.other:AddButton("Halloween Lift",function()
+tabs.other:AddButton("Hallowed Lift",function()
     tabs.other.tpE(Vector3.new(5432.12, 85.35, 5715.02))
 end)
 
-tabs.other:AddButton("Halloween Squat",function()
+tabs.other:AddButton("Hallowed Squat",function()
     tabs.other.tpE(Vector3.new(4812.03, 85.35, 5839.05))
 end)
+
+tabs.other:AddButton("Hallowed Bench",function()
+    tabs.other.tpE(Vector3.new(5314.69, 142.13, 6807.71))
+end)
+
+tabs.other:AddButton("Hallowed Pullups",function()
+    tabs.other.tpE(Vector3.new(4808.10, 102.34, 6857.22))
+end)
+
 
 tabs.other:AddButton("Anti Lag", function()
     tabs.other.playerGui = lp.player:WaitForChild("PlayerGui")
